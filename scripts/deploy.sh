@@ -1,3 +1,4 @@
+#!bin/bash
 BUILD_JAR= $(ls /home/ec2-user/jenkins/build/libs/*.jar)
 JAR_NAME=$(basename $BUILD_JAR)
 
