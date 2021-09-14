@@ -2,7 +2,7 @@
 BUILD_JAR= $(ls /home/ec2-user/jenkins/build/libs/*.jar)
 JAR_NAME=$(basename $BUILD_JAR)
 
-DEPLOY_PATH=/home/ec2-user
+DEPLOY_PATH=/home/ec2-user/
 
 cp $BUILD_JAR $DEPLOY_PATH
 
