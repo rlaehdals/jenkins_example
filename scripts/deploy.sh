@@ -4,7 +4,7 @@ JAR_NAME=$(basename $BUILD_JAR)
 
 DEPLOY_PATH=/home/ec2-user
 
-cp BUILD_JAR DEPLOY_PATH
+cp $BUILD_JAR $DEPLOY_PATH
 
 CURRENT_PID=$(pgrep -f $JAR_NAME)
 
