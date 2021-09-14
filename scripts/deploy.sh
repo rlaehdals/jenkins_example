@@ -18,4 +18,4 @@ fi
 
 DEPLOY_JAR =$DEPLOY_PATH$JAR_NAME
 
-nohup java -jar $DEPLOY_JA >> /home/ec2-user/deploy.log 2>&1 &
+nohup java -jar $DEPLOY_JAR >> /home/ec2-user/deploy.log 2>&1 &
